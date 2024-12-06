@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post Form</title>
+</head>
+<body>
+  <h1>Create a Post</h1>
+  <form id="postForm">
+    <label for="postName">Post topic:</label><br>
+    <input type="text" id="postTopic" name="postTopic" required><br><br>
+
+    <label for="postCategory">Post Category:</label><br>
+    <input type="text" id="postCategory" name="postCategory" placeholder="e.g., mobiles, food" required><br><br>
+
+    <label for="postDescription">Post Description:</label><br>
+    <textarea id="postDescription" name="postDescription" rows="4" required></textarea><br><br>
+
+    <label for="postAuthor">Post Author:</label><br>
+    <input type="text" id="postAuthor" name="postAuthor" required><br><br>
+
+    <button type="button" id="submitBtn">Submit Post</button>
+  </form>
+  <script type="module" src="dashboard.js"></script>
+</body>
+</html>
