@@ -8,7 +8,7 @@ let signUP = () => {
             const user = userCredential.user;
             alert("signed-in")
             console.log(user);
-            window.location.href="./index.html"
+            window.location.href="login.html"
 
         })
         .catch((error) => {

@@ -7,7 +7,7 @@ let logIN = () => {
             const user = userCredential.user;
             alert("you're logged in")
             console.log(user);
-            window.location.href = "./index.html"
+            window.location.href = "index.html"
         })
         .catch((error) => {
             const errorCode = error.code;
